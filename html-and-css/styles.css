@@ -1,0 +1,141 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+}
+.kw-logo{
+    max-height:4svh;
+    padding-left: 60%;
+}
+.cart-1{
+    display: flex;
+    align-items: center;
+}
+.cart-icon-1{
+    max-height: 4svh;
+
+}
+#kw-background{
+  margin-bottom: 90%;  
+}
+#kw-bgi, #kw-background{
+    max-height:50svh;
+    min-width:100%;
+    position: relative;
+}
+.banner-text-1 {
+    font-weight: 200;
+}
+.btp{
+    margin-bottom: 10px;
+}
+.banner-text-1 p{
+    margin: 2px;
+}
+.banner-text-2{
+    font-size:small;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.banner-text{
+    color: white;
+    position: absolute;
+    top:10%;
+    left:10%;
+    font-size: 80px;
+}
+#container-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bookimage{
+    max-height: 34svh;
+
+}
+.button-text{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cart-button{
+    display: flex;
+    background-color: steelblue;
+    border-radius: 5px;
+    max-height:37px ;
+    min-width:5vw;
+    margin-top: 0px;
+    min-height: 1px;
+    color: white;
+}
+
+#container-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#container-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#container-4{
+    background-color: black;
+    display: block;
+    margin-top: 200px;
+
+}
+.foot-image{
+    max-height:12svh;
+    max-width: 12svh;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+.footer{
+    display: flex;
+    min-height: 12svh;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+#headings-1{
+    padding-top: 7svh;
+    padding-left: 7svh;
+    font-size: xx-large;
+    font-weight: 550;
+    margin-bottom: 5px;
+    margin-top: 100px;
+}
+#headings-2{
+    margin: 5px;
+    max-width: fit-content;
+    font-size: xx-large;
+    font-weight: 550;
+    color:#fff;
+}
+#words{
+    font-size: large;
+    font-weight:bolder;
+    margin:0px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#types{
+    color: rgb(172, 165, 172);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+img[src*="/cart-icon-white"]{
+    max-height:3vh;
+    padding-top: 1vh;
+    padding-left: 5px;
+    padding-bottom: 9px;
+    max-width: 1.5vw;
+}
+#add-text{
+    padding-left: 9px;
+    margin-top: 10px;
+}
+.foot-word{
+    padding-right: 10px;
+}
+
+@media (width <= 425px){
+    
+    
+}
